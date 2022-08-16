@@ -1,6 +1,13 @@
 module.exports = {
-  semi: false,
-  parser: "babel",
-  trailingComma: "none",
-  arrowParens: "avoid"
-}
+  arrowParens: 'avoid',
+  bracketSameLine: true,
+  bracketSpacing: false,
+  singleQuote: true,
+  trailingComma: 'all',
+  'prettier/prettier': [
+    'error',
+    {
+      'endOfLine': 'auto',
+    }
+  ],
+};
